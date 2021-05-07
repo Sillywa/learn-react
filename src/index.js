@@ -36,9 +36,15 @@ import Home from "./components/reduxdemo/page/Home"
 //   document.querySelector("#root")
 // )
 
-import App from "./components/react-redux/App"
+// import App from "./components/react-redux/App"
+// import Nesting from "./components/11-router/03-Nesting"
+import CustomLink from "./components/11-router/04-CustomLink"
 
+
+import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <CustomLink />
+  </BrowserRouter>,
   document.querySelector("#root")
 )
