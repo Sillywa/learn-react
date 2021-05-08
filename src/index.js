@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Home from "./components/reduxdemo/page/Home"
+// import Home from "./components/reduxdemo/page/Home"
 // import CheckBox from "./components/formcomponents/CheckBox"
 // import File from "./components/formcomponents/File"
 // import TodoList from "./components/todolist/TodoList"
@@ -39,13 +39,17 @@ import Home from "./components/reduxdemo/page/Home"
 // import App from "./components/react-redux/App"
 // import Nesting from "./components/11-router/03-Nesting"
 // import CustomLink from "./components/11-router/04-CustomLink"
-import Redirects from "./components/11-router/05-Redirects"
+// import Redirects from "./components/11-router/05-Redirects"
+// import Auth from "./components/11-router/06-Auth"
+// import Params from "./components/11-router/07-Params"
+// import Page404 from "./components/11-router/08-Page404"
+// import Sidebar from "./components/11-router/09-Sidebar"
+// import RecursivePath from "./components/11-router/11-RecursivePath"
+import App from "./components/12-immutable/App"
 
 
-import { BrowserRouter } from "react-router-dom"
+// import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
-  <BrowserRouter>
-    <Redirects />
-  </BrowserRouter>,
+  <App />,
   document.querySelector("#root")
 )

@@ -2,10 +2,8 @@ import React, { Component } from "react";
 
 import {
   Route,
-  NavLink,
   Switch,
   withRouter,
-  useLocation,
 } from "react-router-dom";
 
 import "./style.css";
