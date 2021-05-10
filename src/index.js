@@ -45,11 +45,15 @@ import ReactDOM from "react-dom"
 // import Page404 from "./components/11-router/08-Page404"
 // import Sidebar from "./components/11-router/09-Sidebar"
 // import RecursivePath from "./components/11-router/11-RecursivePath"
-import App from "./components/12-immutable/App"
+// import App from "./components/12-immutable/App"
+// import App from "./components/13-lazy/02-react-lazy/App"
+
+// import UseStateApp from "./components/14-hooks/01-UseStateApp"
+import UseEffectApp from "./components/14-hooks/02-UseEffectApp"
 
 
 // import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
-  <App />,
+  <UseEffectApp />,
   document.querySelector("#root")
 )
