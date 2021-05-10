@@ -49,11 +49,19 @@ import ReactDOM from "react-dom"
 // import App from "./components/13-lazy/02-react-lazy/App"
 
 // import UseStateApp from "./components/14-hooks/01-UseStateApp"
-import UseEffectApp from "./components/14-hooks/02-UseEffectApp"
+// import UseEffectApp from "./components/14-hooks/02-UseEffectApp"
+// import UseContextApp from "./components/14-hooks/03-UseContextApp"
+// import UseReducerApp from "./components/14-hooks/04-UseReducerApp"
+// import UseCallbackApp from "./components/14-hooks/05-UseCallbackApp"
+// import UseMemoApp from "./components/14-hooks/06-UseMemoApp"
+// import Memoization from "./components/14-hooks/07-Memoization"
+// import UseRefApp from "./components/14-hooks/08-UseRefApp"
+// import CaptureValue from "./components/14-hooks/09-CaptureValue"
+import CustomHooks from "./components/14-hooks/10-CustomHooks"
 
 
 // import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
-  <UseEffectApp />,
+  <CustomHooks />,
   document.querySelector("#root")
 )
