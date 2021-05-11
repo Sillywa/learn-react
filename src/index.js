@@ -57,11 +57,22 @@ import ReactDOM from "react-dom"
 // import Memoization from "./components/14-hooks/07-Memoization"
 // import UseRefApp from "./components/14-hooks/08-UseRefApp"
 // import CaptureValue from "./components/14-hooks/09-CaptureValue"
-import CustomHooks from "./components/14-hooks/10-CustomHooks"
+// import CustomHooks from "./components/14-hooks/10-CustomHooks"
+// import UseImperativeHandle from "./components/14-hooks/11-UseImperativeHandle"
+// import UseLayoutEffect from "./components/14-hooks/12-UseLayoutEffect"
+// import UseLayoutEffect2 from "./components/14-hooks/13-UseLayoutEffect2"
 
+// import App from "./components/15-router-transition/App"
+
+import Sage from "./components/16-redux-saga/Saga"
+
+import { Provider } from "react-redux"
+import store from "./components/16-redux-saga/store"
 
 // import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
-  <CustomHooks />,
+  <Provider store={store}>
+    <Sage />
+  </Provider>,
   document.querySelector("#root")
 )
